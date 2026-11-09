@@ -1,0 +1,20 @@
+const clinicName = "Apollo Health CLinic";
+const apiURL = "https://api.apollohealth.com";
+let envName = "Production";
+let nurseOnDuty = "Vijaya Oka";
+let date = "2026-11-01";
+let remaindersEnabled = true;
+
+console.log("==========================================");
+console.log("       CLINIC SYSTEM CONFIGURATION");
+console.log("==========================================");
+console.log("");
+console.log("Clinic Name:" + clinicName);
+console.log("API URL:" + apiURL);
+console.log("Environment:" + envName);
+console.log("Nurse on Duty:" + nurseOnDuty);
+console.log("Date:" + date);
+console.log("Reminders Enabled:" + remaindersEnabled);
+console.log("==========================================");
+nurseOnDuty = "Amruta Rao";
+console.log("Shift change. Nurse on Duty:" + nurseOnDuty);
